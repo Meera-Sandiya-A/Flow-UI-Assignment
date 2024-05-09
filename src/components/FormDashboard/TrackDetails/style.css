@@ -1,0 +1,42 @@
+.track-details {
+    margin-left: 112px;
+    margin-bottom: 16px;
+}
+
+.track-details-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.track-details li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   position: relative;
+}
+
+.track-details li span{
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: min-content;
+    padding: 8px 14px;
+    border: 1px solid blueviolet;
+    color: #fff; 
+}
+
+.track-details li::before,
+.track-details li::after{
+    content: "";
+    position: absolute;
+    height: 950px;
+    color: blueviolet;
+    width: 2px;
+    top: 45px;
+    right: 0;
+}

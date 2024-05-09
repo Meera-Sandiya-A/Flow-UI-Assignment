@@ -1,0 +1,13 @@
+.footer-container{
+    background: rgb(126, 28, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 18px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-title {
+    margin-left: 330px;
+}

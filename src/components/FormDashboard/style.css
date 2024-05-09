@@ -1,0 +1,10 @@
+.dashboard-container {
+  min-height: 80vh;
+  min-width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-grid {
+  display: flex;
+}
